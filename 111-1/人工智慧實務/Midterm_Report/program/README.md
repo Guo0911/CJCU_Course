@@ -18,9 +18,10 @@
 計算原始資料集的每份檔案所包含的物件類別及座標，並儲存至**result/PRF1/Ground**的**Ground.json**\* 
 
 6. Detect_to_Json.py:  
-計算模型所辨識的檔案中所包含的物件類別及座標，並儲存至**result/PRF1/Detect**\*中按照編號命名的json檔案\*
+計算模型所辨識的檔案中所包含的物件類別及座標<sup>!</sup>，並儲存至**result/PRF1/Detect**\*中按照編號命名的json檔案\*
 
 7. Json_to_PRF1.py:  
 計算模型辨識結果的Precision、Recall、F1-score，並儲存至**result/PRF1/Result**\*的csv檔案\*
 
->>\*已被隱藏的目錄或檔案
+>>\*已被隱藏的目錄或檔案  
+>><sup>!</sup>辨識結果之資料未公開，若有需求請以mail聯繫109B30612@mailst.cjcu.edu.tw
