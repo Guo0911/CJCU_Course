@@ -15,7 +15,7 @@
 提供使用者輸入要當testset的資料集編號，並自動分配至**dataset/train**\* 及**dataset/test**\* 中
 
 5. Ground_to_Json.py:  
-計算原始資料集的每份檔案所包含的物件類別及座標，並儲存至**result/PRF1/Ground**的**Ground.json**\* 
+計算原始資料集的每份檔案所包含的物件類別及座標，並儲存至**result/PRF1/Ground**\* 的**Ground.json**\* 
 
 6. Detect_to_Json.py:  
 計算模型所辨識的檔案中所包含的物件類別及座標<sup>!</sup>，並儲存至**result/PRF1/Detect**\*中按照編號命名的json檔案\*
